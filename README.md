@@ -9,7 +9,6 @@
 - Bài lab: Lab A2 – Xử lý sự kiện vòng đời, lưu trạng thái & Git/GitHub
 
 ## Giới thiệu
-
 Ứng dụng là đồng hồ bấm giờ được viết bằng Java và XML trên Android. Ứng dụng có thể bắt đầu, tạm dừng và đặt lại thời gian. Thời gian được tính bằng `SystemClock.elapsedRealtime()` và giao diện được cập nhật định kỳ bằng `Handler`.
 
 Ứng dụng cũng xử lý vòng đời của Activity và lưu trạng thái bằng `onSaveInstanceState`, vì vậy thời gian và trạng thái không bị mất khi xoay màn hình.
